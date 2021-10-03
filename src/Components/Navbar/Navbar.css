@@ -1,0 +1,11 @@
+.nav-css{
+    /*
+    background: rgb(63,118,213);
+    background: linear-gradient(149deg, rgba(63,118,213,1) 2%, rgba(5,203,136,1) 67%, rgba(63,209,224,0.9822303921568627) 100%);
+    */
+    background-color: rgb(104, 145, 244 );
+}
+.nav-name{
+    color: black;
+    font-weight: bold;
+}
