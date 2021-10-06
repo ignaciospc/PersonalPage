@@ -9,3 +9,9 @@
     color: black;
     font-weight: bold;
 }
+.a-color{
+    color: black;
+}
+.a-color:hover{
+    color: yellow;
+}
