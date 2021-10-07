@@ -4,19 +4,21 @@ import './Navbar.css'
 function Navbar () {
     return(
         <div>
-            <div className=''>
-                <nav className='nav-css navbar-expand-md navbar navbar-ligth '>
-                    <a href='#' className='nav-item nav-link active'>
-                        <img src='images/sunflower-icon.png' width='60' height='50' />
-                        <span className='nav-name'>Clara Molina</span>
-                    </a>
+             <div className=''>
+                <nav className='nav-css  navbar navbar-ligth '>
 
-                    <button className='navbar-toggler mr-n1' type='button' data-bs-toggler='collapse' data-bs-formTarget='#collapseId' aria-controls='toggleMobileMenu' arua-aria-expanded='false' aria-lable='toggle navigation'>
-                        <span className='navbar-toggler-icon'></span>
-                    </button>
+                    <div className=''>
+                        <a href='#' className='nav-item nav-link active'>
+                            <img src='images/sunflower-icon.png' width='60' height='50' />
+                            <span className='nav-name p-2'>MC</span>
+                        </a>
+                    </div>
 
-                    <div className='collapse navbar-collapse' id='collapseId'>
-                        <ul className='nav justify-content-end'>
+                    <div className=''>
+                        <ul className='nav'>
+                            <li className='nav-item'>
+                                <a className='nav-link a-color' href="">Home</a>
+                            </li>
                             <li className='nav-item'>
                                 <a className='nav-link a-color' href="">About me</a>
                             </li>
@@ -29,14 +31,33 @@ function Navbar () {
                         </ul>
                     </div>
 
+                    <div className=''>
+                        <ul className='nav'>
+                            <li className='nav-item'>
+                                <a href="#IG" className='nav-link'>
+                                    <img src='images/facebook.png' width='40' height='40' />
+                                </a>
+                            </li>
+                            <li className='nav-item' >
+                                <a href="#FACE" className='nav-link'>
+                                    <img src='images/twiter.png' width='40' height='40' />
+                                </a>
+                            </li>
+                            <li className='nav-item' >
+                                <a href="#TW" className='nav-link' >
+                                    <img src='images/facebook.png' width='40' height='40' />
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+
                 </nav>
             </div>
         </div>
 
-            
-            
+        
 
-       
     )
 }
 
